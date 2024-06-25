@@ -12,3 +12,15 @@ class Solution {
         return answer;
     }
 }
+
+
+
+// import java.util.stream.IntStream;
+
+// class Solution {
+//     public int solution(int[] numList) {
+//         return IntStream.range(0, numList.length).filter(i -> numList[i] < 0).findFirst().orElse(-1);
+//     }
+// }
+
+
